@@ -74,6 +74,7 @@ class Video:
             if ch == 27:
                 break
 
+                
         cap.release()
         cv.destroyAllWindows()
 
